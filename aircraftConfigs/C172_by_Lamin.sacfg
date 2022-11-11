@@ -5,7 +5,7 @@
         "author": "Laminar Research - dmax3d.com"
     },
     "speed": {
-        "taxi": 20
+        "taxi": 100
     },
     "autoUpdate": true,
     "replace_dref": [],
