@@ -75,7 +75,7 @@
                 {
                     "name": "Severe hard landing (fpm)",
                     "type": 2,
-                    "primaryCondition": "$analysis.touchdown_combined.fpm_agl.max > -900",
+                    "primaryCondition": "$analysis.touchdown_combined.fpm_agl.max > -700",
                     "beginConditionMarker": "#CH",
                     "endConditionMarker": "#TAXI",
                     "description": "Maximum sinkrate during touchdown:\n600 fpm"
@@ -83,7 +83,7 @@
                 {
                     "name": "Hard landing (fpm)",
                     "type": 2,
-                    "primaryCondition": "$analysis.touchdown_combined.fpm_agl.max > -600",
+                    "primaryCondition": "$analysis.touchdown_combined.fpm_agl.max > -400",
                     "beginConditionMarker": "#CH",
                     "endConditionMarker": "#TAXI",
                     "description": "Maximum sinkrate during touchdown:\n600 fpm"
