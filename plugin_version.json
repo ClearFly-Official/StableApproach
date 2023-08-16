@@ -6,7 +6,7 @@
   "va":{
     "report_server":{
       "enabled": true,
-      "host": "192.168.0.110:3000",
+      "host": "192.168.0.110",
       "target": "/api/report",
       "semver": {
         "min": "1.1.0",
